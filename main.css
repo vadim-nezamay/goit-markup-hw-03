@@ -74,6 +74,7 @@ body{
         .navi-bar{margin-right: 50px;
             display: flex;}
             .navi:last-child{margin: 0px;}
+            .site-nav {padding-top: 24px;padding-bottom: 25px;}
         .link {
             display: flex;
              display: block;
@@ -96,9 +97,9 @@ body{
             
          /* Эффективные решения для вашего бизнеса */
     
-        .main-hiro{text-align: center;vertical-align:middle
-        }
-            .text {background: #2F303A;}
+        .main-hiro{text-align: center;vertical-align:middle}
+            .text {background: #2F303A;padding-top: 200px;
+            padding-bottom: 280px; text-align: center;}
 
         .hiro-title{
          margin-bottom:200px ;
@@ -118,10 +119,11 @@ body{
             font-weight: 700;
             font-size: 14px;
             line-height: 1.14;}
+           .idea{padding-top: 94px;padding-bottom: 94px;} 
 
             .main-paragraph{display: flex;
             margin-left: auto;margin-right: auto;text-align:left}
-    
+    .my-paragraph{padding-right: 30px;}
             .paragraph {
             color: #757575;
             font-style: 400;
@@ -131,14 +133,22 @@ body{
     /* Чем мы занимаемся, Наша команда */
 
     .lessons{text-align: center;}
-    .affair{display: flex; padding-left: 0px; }
+
+    .affair{display: flex; padding-left: 0px;
+    padding-top: 50px;
+padding-bottom: 94px; }
+
     .comm{margin-left: auto;
     margin-right: auto;}
 
     /* Наша команда имена */
     .main-style{margin-left: auto;
         margin-right : auto;}
-    .main-team{display: flex;padding-left: 0px }
+
+    .main-team{display: flex;padding-left: 0px;
+    padding-top: 50px;
+padding-bottom: 94px;}
+
     .box{
         display: flex;
        color: #212121;
@@ -189,9 +199,15 @@ justify-content: center;}
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;}
+
+     .my-text{background: #2F303A;
+        padding-top: 60px;padding-bottom: 60px;
+       
+
+    }   
     
     .mobile, .mail{
-    
+
     color: rgba(255, 255, 255, 0.6);
     font-style: 400;
     font-weight: 400;
@@ -213,6 +229,7 @@ justify-content: center;}
             
       
             .mast-team{ padding-left: 0px;
+                padding-bottom: 94px;
             
             display: flex;
             flex-wrap: wrap;}
@@ -258,6 +275,9 @@ justify-content: center;}
     
     .container-navigation{margin-left: 280px;}
       
+.navigation{padding-top: 94px;
+padding-bottom: 50px;}
+
     .button-site:hover{ 
         color: #FFFFFF;}
   .button-site{
