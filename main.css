@@ -7,6 +7,8 @@ body{
     font-weight: 700;
     font-size: 1.2;
     line-height: 31px;}
+
+
     .logo-start{
         color: #2196F3;
         width: 145px;
@@ -74,7 +76,7 @@ body{
         .navi-bar{margin-right: 50px;
             display: flex;}
             .navi:last-child{margin: 0px;}
-            .site-nav {padding-top: 24px;padding-bottom: 25px;}
+            
         .link {
             display: flex;
              display: block;
@@ -132,7 +134,8 @@ body{
             line-height: 1.7;}
     /* Чем мы занимаемся, Наша команда */
 
-    .lessons{text-align: center;}
+    .lessons{text-align: center;font-weight: 376px;
+    font-size: 42px; }
 
     .affair{display: flex; padding-left: 0px;
     padding-top: 50px;
@@ -146,10 +149,13 @@ padding-bottom: 94px; }
         margin-right : auto;}
 
     .main-team{display: flex;padding-left: 0px;
-    padding-top: 50px;
+    
 padding-bottom: 94px;}
 
-    .box{
+    .boxi{padding-top: 94px;
+        padding-bottom: 50px;
+        font-weight: 264px;
+    font-size: 42px;
         display: flex;
        color: #212121;
        font-weight: 700;
@@ -228,16 +234,20 @@ justify-content: center;}
                 margin: 0px;}
             
       
-            .mast-team{ padding-left: 0px;
-                padding-bottom: 94px;
+            .mast-team{ 
+            padding-left: 0px;
+            padding-bottom: 94px;
             
             display: flex;
             flex-wrap: wrap;}
            
-            .last-page{margin-left: auto;
-                margin-right: auto;
+            .last-page {
+            margin-left: auto;
+            margin-right: auto;
             
            }
+ 
+
 
         
 
@@ -279,7 +289,7 @@ justify-content: center;}
 padding-bottom: 50px;}
 
     .button-site:hover{ 
-        color: #FFFFFF;}
+         color: #212121;}
   .button-site{
       
     font-family: Roboto;
@@ -287,7 +297,7 @@ padding-bottom: 50px;}
      font-weight: 500;
     font-size: 16px;
      line-height: 1.6;
-    color: #212121;
+    color: #FFFFFF;
      min-width: 73px;
      height: 38px;
       background: #2196F3
