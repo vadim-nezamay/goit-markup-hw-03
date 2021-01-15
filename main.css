@@ -243,11 +243,10 @@ justify-content: center;}
            
             .last-page {
             margin-left: auto;
-            margin-right: auto;
-            
-           }
+            margin-right: auto;}
  
-
+.box-time{border: 1px solid #382929;
+box-sizing: border-box;}
 
         
 
