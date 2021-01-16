@@ -9,8 +9,10 @@ body {
   line-height: 31px;
 }
 
-.container_site-nav{display: flex;text-align: center; justify-content: center;}
+.site-nav{display: flex;text-align: center;
+   justify-content: center;}
 
+.tel { display: flex;}
 
 .logo-start {
   text-align: center;
@@ -240,9 +242,11 @@ h3 {
   font-style: 400;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
-}
+  line-height: 1.14;}
+
+
 .items {
+ 
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
