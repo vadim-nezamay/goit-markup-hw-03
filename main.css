@@ -59,9 +59,7 @@ hr{border: 1px solid #ECECEC;}
 /*КОМАНДЫ*/
 .container {
   width: 1170px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+  margin: 0 auto;}
 
 .list {
   display: flex;
@@ -281,32 +279,43 @@ h3 {
 .last-items:last-child {
   margin: 0px;
 }
+.flex-container{flex-wrap: wrap;
+justify-content: center; display: flex;
+align-items: center;
+margin-right: 30px;width: 100%;
+}
 
-.mast-team {
-  padding-left: 0px;
-  padding-bottom: 94px;
-
-  display: flex;
-  flex-wrap: wrap;
+.mast-team {  flex-wrap: wrap;
+justify-content: center; display: flex;
 }
 
 .last-page {
-width: 370px;
-height: 404px;
-  margin: 0 auto;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  border: 1px solid #eeeeee;}
+    
 
+    width: 370px;
+flex-wrap: wrap;
+display: flex;
+   padding-right: 30px;
+  
 
-.mast-team:nth-child(3n + 1) {
-  margin-right: 0px;}
+ border: 1px solid #EEEEEE;
+ font-size: 0;}
+
 
 .project {
   font-size: 16px;
   line-height: 1.9;
   color: #757575;}
+
+.mi-project{
+align-items: center;
+justify-content: center;
+text-align: left;
+padding-left: 24px;}
+
+
+.my-project{width: 322px;
+height: 36px;}
 
 .background {
   background: #f5f4fa;}
@@ -345,7 +354,10 @@ a {
   background: #2196F3;
 color: #FFFFFF;}
 
-.my-site{margin-left: 240px;}
+.my-site{margin-left: 240px;
+margin-bottom:56px ;
+margin-top: 100px;
+}
 .button-site {
   font-family: Roboto;
   font-style: 400;
