@@ -9,6 +9,8 @@ body {
   line-height: 31px;
 }
 
+.start{margin-left: 240px;}
+
 .logo-start {
   color: #2196f3;
   width: 145px;
@@ -251,6 +253,7 @@ h3 {
 }
 
 .my-text {
+  
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
