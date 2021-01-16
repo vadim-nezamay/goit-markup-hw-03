@@ -3,6 +3,7 @@ body {
 }
 /*лого шапка logo*/
 .logo-start .logo {
+  
   font-style: 400;
   font-weight: 700;
   font-size: 1.2;
@@ -78,9 +79,7 @@ hr{border: 1px solid #ECECEC;}
   list-style: none;
   align-items: center;}
 
-.mobi-mail {
-  display: flex;
-  margin-left: auto;}
+
 
 .last-nav {
   display: flex;
@@ -275,6 +274,8 @@ h3 {
 
 .mobile,
 .mail {
+  padding-bottom: 9px;
+ display: flex;
   color: rgba(255, 255, 255, 0.6);
   font-style: 400;
   font-weight: 400;
@@ -339,19 +340,17 @@ height: 36px;}
 ul {
   list-style: none;}
   div{list-style: none;}
-.my-address {
-  padding-left: 0;}
-.address {
-  font-family: Roboto;
+
+  .street{ font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
 
-  letter-spacing: 0.03em;
+  color: #ffffff;padding-top: 20px;
+  padding-bottom: 9px;}
 
-  color: #ffffff;
-}
+
 a {
   text-decoration: none;
 }
