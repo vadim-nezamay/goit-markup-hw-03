@@ -300,7 +300,7 @@ h3 {
 .flex-container{flex-wrap: wrap;
 justify-content: center; display: flex;
 align-items: center;
-margin-right: 30px;width: 100%;
+width: 100%;
 }
 
 .mast-team {  flex-wrap: wrap;
@@ -310,14 +310,15 @@ justify-content: center; display: flex;
 .last-page {
     
 
-    width: 370px;
+  
 flex-wrap: wrap;
 display: flex;
-   padding-right: 30px;
-  
+ justify-content: center;
+align-items: center;
+display:inline-block;
 
- border: 1px solid #EEEEEE;
- font-size: 0;}
+
+}
 
 
 .project {
