@@ -8,10 +8,12 @@ body {
   font-size: 1.2;
   line-height: 31px;
 }
-.logo-start{margin-left: 240px;}
+
+.container_site-nav{display: flex;text-align: center; justify-content: center;}
 
 
 .logo-start {
+  text-align: center;
   color: #2196f3;
   width: 145px;
   height: 31px;
@@ -22,9 +24,10 @@ body {
   font-style: 400;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.4;
-}
+  line-height: 1.4;}
+
 .logo {
+  text-align: center;
   margin-right: 93px;
   color: #212121;
   width: 145px;
@@ -36,12 +39,11 @@ body {
   font-style: 400;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.4;
-}
+  line-height: 1.4;}
 
 .logo-my {
-  color: #ffffff;
 
+  color: #ffffff;
   width: 145px;
   height: 31px;
   left: 215px;
@@ -51,13 +53,16 @@ body {
   font-style: 400;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.4;
-}
+  line-height: 1.4;}
+
 /*список навигации link*/
+
 .site-nav {
   text-align: center;
-}
+  display: flex;}
+
 hr{border: 1px solid #ECECEC;}
+
 /*КОМАНДЫ*/
 .container {
   width: 1170px;
@@ -68,13 +73,11 @@ hr{border: 1px solid #ECECEC;}
   margin: 0;
   padding: 0;
   list-style: none;
-  align-items: center;
-}
+  align-items: center;}
 
 .mobi-mail {
   display: flex;
-  margin-left: auto;
-}
+  margin-left: auto;}
 
 .last-nav {
   display: flex;
