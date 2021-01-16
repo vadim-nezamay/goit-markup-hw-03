@@ -1,6 +1,4 @@
-body{
-    background : #E5E5E5;
-    font-family: Roboto, sans-serif;}
+body{font-family: Roboto, sans-serif;}
     /*лого шапка logo*/
     .logo-start .logo {
     font-style: 400;
@@ -54,7 +52,8 @@ body{
         /*список навигации link*/
         .site-nav{text-align: center;}
           /*КОМАНДЫ*/
-    .container{width: 1170px;
+    .container{
+    width: 1170px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 15px;}
@@ -68,8 +67,7 @@ body{
     
         .mobi-mail{
        display: flex;
-        margin-left: auto;
-        }
+        margin-left: auto;}
              
         .last-nav{display: flex; }
 
@@ -242,16 +240,17 @@ justify-content: center;}
             flex-wrap: wrap;}
            
             .last-page {
-            margin-left: auto;
-            margin-right: auto;}
+          padding-right: 30px;
+          
+            border: 1px solid #EEEEEE;
+            box-sizing: border-box;}
  
-.box-time{border: 1px solid #382929;
-box-sizing: border-box;}
+
 
         
 
-           .last-page:nth-child(-n+3){
-            margin-bottom: 0px;}
+           .last-page:nth-child(3){
+           padding-right: 0px;}
 
             .project{
   
