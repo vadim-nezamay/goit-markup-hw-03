@@ -241,6 +241,7 @@ justify-content: center;}
            
             .last-page {
           padding-right: 30px;
+         
           
             border: 1px solid #EEEEEE;
             box-sizing: border-box;}
@@ -249,7 +250,7 @@ justify-content: center;}
 
         
 
-           .last-page:nth-child(3){
+           .mast-team:nth-child(2n+b){
            padding-right: 0px;}
 
             .project{
