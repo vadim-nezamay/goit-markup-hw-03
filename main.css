@@ -9,13 +9,15 @@ body {
   line-height: 31px;
 }
 
-.site-nav{display: flex;text-align: center;
-   justify-content: center;}
+.site-nav{display: flex;}
 
-.tel { display: flex;}
+.tel { display: flex;margin-left: 298px;
+}
+
+.text-logo{display: flex; }
 
 .logo-start {
-  text-align: right;
+
   color: #2196f3;
   width: 145px;
   height: 31px;
@@ -29,7 +31,6 @@ body {
   line-height: 1.4;}
 
 .logo {
-  text-align: right;
   margin-right: 93px;
   color: #212121;
   width: 145px;
@@ -94,7 +95,7 @@ hr{border: 1px solid #ECECEC;}
 
 
 .items {
-  text-align: right;
+  padding-left: 50px;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -107,11 +108,15 @@ hr{border: 1px solid #ECECEC;}
   line-height: 1.14;
 }
 
+.link:last-child {
+  margin-right: 0px;
+}
+
 
 .link {
-  text-align: left;
+  margin-right: 50px;
   display: flex;
-  display: block;
+  
   padding-top: 32px;
   padding-bottom: 32px;
 
