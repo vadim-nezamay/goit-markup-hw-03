@@ -15,7 +15,7 @@ body {
 .tel { display: flex;}
 
 .logo-start {
-  text-align: center;
+  text-align: right;
   color: #2196f3;
   width: 145px;
   height: 31px;
@@ -29,7 +29,7 @@ body {
   line-height: 1.4;}
 
 .logo {
-  text-align: center;
+  text-align: right;
   margin-right: 93px;
   color: #212121;
   width: 145px;
@@ -86,14 +86,30 @@ hr{border: 1px solid #ECECEC;}
 }
 
 .navi-bar {
-  margin-right: 50px;
   display: flex;
 }
 .navi:last-child {
   margin: 0px;
 }
 
+
+.items {
+  text-align: right;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+ 
+
+  color: #757575;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+
 .link {
+  text-align: left;
   display: flex;
   display: block;
   padding-top: 32px;
@@ -244,20 +260,6 @@ h3 {
   font-size: 14px;
   line-height: 1.14;}
 
-
-.items {
- 
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-right: 50px;
-
-  color: #757575;
-  font-style: 400;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
 
 .my-text {
   
