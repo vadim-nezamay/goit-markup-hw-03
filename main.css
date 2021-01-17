@@ -210,11 +210,18 @@ h2 {
 
 /* Наша команда имена */
 .main-style {
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
+.main-boxi{background: #F5F4FA;
+height: 648px;}
 
 .main-team {
+
+
   display: flex;
   padding-left: 0px;
 
@@ -294,30 +301,18 @@ h3 {
   line-height: 2;
   color: #212121;
 }
-.last-items:last-child {
-  margin: 0px;
-}
-.flex-container{flex-wrap: wrap;
-justify-content: center; display: flex;
-align-items: center;
-width: 100%;
-}
 
-.mast-team {  flex-wrap: wrap;
-justify-content: center; display: flex;
-}
 
-.last-page {
-    
+.flex-container{padding-left: 0px; 
+  justify-content: center;}
 
-  
+.last-page {  
+
 flex-wrap: wrap;
 display: flex;
  justify-content: center;
 align-items: center;
 display:inline-block;
-
-
 }
 
 
