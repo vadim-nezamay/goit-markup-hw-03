@@ -12,8 +12,7 @@ body {
 
 .site-nav{display: flex;}
 
-.tel { display: flex;margin-left: 298px;
-}
+.tel { display: flex;margin-left: 298px;}
 
 .text-logo{display: flex; }
 
@@ -61,8 +60,7 @@ body {
 
 /*список навигации link*/
 
-.site-nav {
-  text-align: center;
+.site-nav {text-align: center;
   display: flex;}
 
 hr{border: 1px solid #ECECEC;}
@@ -123,8 +121,7 @@ hr{border: 1px solid #ECECEC;}
   font-style: 400;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
-}
+  line-height: 1.14;}
 
 .link:hover {
   color: #2196f3;
