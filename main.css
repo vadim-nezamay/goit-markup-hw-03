@@ -296,21 +296,26 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: #212121;
-}
+  color: #212121;}
+ .mast-last{justify-content: center; padding-left: 0px;
+   display: inline-flex;
+  display: flex;
+  flex-wrap: wrap; display: inline-flex}
+      
+ .mast-team {  
+     display: inline-flex;
+     justify-content: center; padding-left: 0px;
+      display: inline-flex;
+      display: flex;
+      flex-wrap: wrap;}
 
+      .last-page img {
+     width: 100%;}
 
-.flex-container{padding-left: 0px; 
-  justify-content: center;}
+.last-page{margin-bottom: 30px;
+padding-right: 30px;width: 370px;}
 
-.last-page {  
-
-flex-wrap: wrap;
-display: flex;
- justify-content: center;
-align-items: center;
-display:inline-block;
-}
+.last-page:nth-child(3n + 3) {padding-right: 0px;}
 
 
 .project {
