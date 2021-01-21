@@ -29,9 +29,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.4;}
+  .start{padding: 24px 25px;}
 
 .logo {
-  margin-right: 93px;
+  padding-right: 93px;
   color: #212121;
   width: 145px;
   height: 31px;
@@ -191,8 +192,9 @@ h2 {
   line-height: 1.7;
 }
 /* Чем мы занимаемся, Наша команда */
+.my-lessons{padding-top: 94px;padding-bottom: 50px;}
 
-.lessons {
+.lessons {padding-bottom: 50px;
   text-align: center;
   font-weight: 376px;
   font-size: 42px;
@@ -201,8 +203,8 @@ h2 {
 .affair {
   display: flex;
   padding-left: 0px;
-  padding-top: 50px;
-  padding-bottom: 94px;
+  
+  
 }
 
 .comm {
@@ -211,15 +213,16 @@ h2 {
 }
 
 /* Наша команда имена */
-.rov{padding-bottom: 30px;}
+.rov{padding:30px ;}
 .main-style {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
-.main-boxi{background: #F5F4FA;
+.main-boxi{background: #F5F4FA; padding-top: 94px;
+  
 height: 648px;}
 
 .main-team {
@@ -232,8 +235,7 @@ height: 648px;}
 }
 
 .boxi {
-  padding-top: 94px;
-  padding-bottom: 50px;
+ padding-bottom: 50px;
   font-weight: 264px;
   font-size: 42px;
   display: flex;
@@ -303,7 +305,8 @@ h3 {
   font-size: 18px;
   line-height: 2;
   color: #212121;}
- .mast-last{justify-content: center; padding-left: 0px;
+ .mast-last{justify-content: center; 
+  padding-left: 0px;
    display: inline-flex;
   display: flex;
    
@@ -314,13 +317,13 @@ h3 {
      justify-content: center;
      padding-left: 0px;
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: wrap;margin-top: 50px;margin-bottom: 93px;
    }
 
       .last-page img {
      width: 100%;}
     .mi-project{text-align-last: left;
-    padding-left: 24px;padding-bottom: 20px;}
+    padding: 24px 20px;}
 
 .last-page{margin-right: 30px;margin-bottom: 30px;
   justify-content: center;
@@ -382,14 +385,14 @@ margin-bottom:56px ;
 margin-top: 100px;
 }
 .button-site {
+  
   font-family: Roboto;
   font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   color: #212121;
-  min-width: 73px;
-  height: 38px;
+  padding:6px 22px ;
   background: #F5F4FA;
   border-radius: 4px;
   border: 1px solid transparent;
@@ -406,27 +409,13 @@ margin-top: 100px;
   line-height: 1.8;
   color: #ffffff;
 
-  min-width: 200px;
-  height: 50px;
+ padding: 10px 32px;
   background: #2196f3;
   border-radius: 4px;
   border: 1px solid transparent;
 }
+  
+  
 
-.ul {
-  margin-left: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-.p {
-  margin-left: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-.h1,
-h2,
-h3 {
-  margin-left: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
+*{margin:0;}
+.a.span.button{margin: 0;}
