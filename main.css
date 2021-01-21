@@ -12,7 +12,7 @@ body {
 
 .site-nav{display: flex;}
 
-.tel { display: flex;margin-left: 298px;}
+
 
 .text-logo{display: flex; }
 
@@ -97,7 +97,7 @@ margin-right: auto;
 }
 
 
-.items {
+.items {text-align: right;
   padding-left: 50px;
   display: block;
   padding-top: 32px;
@@ -111,13 +111,27 @@ margin-right: auto;
   line-height: 1.14;
 }
 
-.link:last-child {
-  margin-right: 0px;
-}
+
+.my-items{padding-left: 313px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+ 
+
+  color: #757575;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;}
+
+
+
+.tel { display: flex;text-align: right;}
+
 
 
 .link {
-  margin-right: 50px;
+  padding-right: 50px;
   display: flex;
   
   padding-top: 32px;
@@ -136,6 +150,7 @@ margin-right: auto;
   font-size: 14px;
   line-height: 1.14;
 }
+.link:last-child{padding-right: 0px;}
 
 /* Эффективные решения для вашего бизнеса */
 
