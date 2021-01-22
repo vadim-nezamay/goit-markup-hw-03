@@ -161,7 +161,7 @@ margin-right: auto;
 .text {
   background: #2f303a;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -207,7 +207,7 @@ h2 {
   line-height: 1.7;
 }
 /* Чем мы занимаемся, Наша команда */
-.my-lessons{padding-top: 94px;padding-bottom: 50px;}
+.my-lessons{padding-bottom: 94px;}
 
 .lessons {padding-bottom: 50px;
   text-align: center;
