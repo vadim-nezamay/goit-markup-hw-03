@@ -38,10 +38,45 @@ body {
 }
 
 .list {
+  margin: 0;
+  padding-left: 0;
   list-style: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+p{
+  margin: 0;
+}
+img{
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
 
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* Навігація*/
+
+.header .container{
+  display: flex;
+  align-items: center;
+ 
+}
+.header{
+
+  padding:24px 0;
+}
 .header-logo {
   font-weight: 700;
   font-size: 26px;
@@ -84,6 +119,12 @@ body {
 .current{
     color: var(--acccent-color)
 }
+.nav-list{
+  margin-left: 93px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
 .contacts-link {
   font-size: 14px;
   color: var(--primary-text-color);
@@ -98,8 +139,17 @@ body {
   font-weight: 500;
   line-height: calc(16 / 14);
 }
+.contacts-list{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.contacts-item + .contacts-item{
+margin-left: 50px;
+}
 /*Структура діяльності*/
 .hero {
+  padding: 200px 0;
   background: var(--footer-bg-color);
 }
 .hiro-title {
@@ -110,6 +160,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .hero .button {
@@ -130,11 +183,14 @@ body {
   color: var(--title-text-color);
   text-transform: uppercase;
 }
+.my-features {display: flex;column-gap: 30px;}
+.features-item {width: 270px;}
 .features-text {
   line-height: calc(16 / 14);
 }
 /*Чим ми займаємося*/
 .doing {
+  padding-top: 0;
   background: #f5f5f5;
 }
 .team {
@@ -169,8 +225,11 @@ body {
 }
 
 /*Кнопки*/
-.bt-one {
-  font-weight: 700;
+
+.bt{text-align: center;}
+.hero-btn {
+  padding: 10px 30px;
+font-weight: 700;
   font-family: 'Roboto';
   border: 0;
   border-radius: 4px;
@@ -183,11 +242,14 @@ body {
   cursor: pointer;
 }
 
-.bt-one:hover, .bt-one:focus  {
+.hero-btn:hover, .hero-btn:focus  {
 background: #188CE9;
 }
-
+.my-btn{
+  display: flex;
+}
 .button {
+  padding: 6px 25px;
   cursor: pointer;
   font-weight: 500;
   font-family: 'Roboto';
@@ -236,6 +298,14 @@ color: rgba(255, 255, 255, 0.6);
 
 }
 /*Портфолио*/
+.wrap{
+ display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+.my-wrap{
+
+}
 .socials {
   font-style: normal;
   font-weight: 700;
