@@ -74,7 +74,7 @@ img{
  
 }
 .header{
-
+  border: 1px solid #ECECEC;
   padding:24px 0;
 }
 .header-logo {
@@ -89,7 +89,10 @@ img{
   color: var(--black-color);
 }
 .footer-logo {
-  font-family: 'Raleway';
+  display: block;
+  padding-bottom: 20px;
+  padding-top: 60px;
+    font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -189,12 +192,17 @@ margin-left: 50px;
   line-height: calc(16 / 14);
 }
 /*Чим ми займаємося*/
+.doing-list{
+  display: flex;
+  column-gap: 30px;
+}
 .doing {
   padding-top: 0;
-  background: #f5f5f5;
+  background: #F5F5F5;
 }
 .team {
-  background: #f5f4fa;
+  padding-bottom: 94px;
+  background: #F5F4FA;
 }
 .section-title {
   font-weight: 700;
@@ -203,8 +211,13 @@ margin-left: 50px;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   text-align: center;
+  margin-bottom: 50px;
 }
 /*Наша команда*/
+.team-list{
+  display: flex;
+  column-gap: 30px;
+}
 .team-item {
   background: #ffffff;
 }
@@ -246,6 +259,9 @@ font-weight: 700;
 background: #188CE9;
 }
 .my-btn{
+  padding-left: 297px;
+  padding-bottom: 56px;padding-top: 100px;
+  gap: 8px;
   display: flex;
 }
 .button {
@@ -280,17 +296,23 @@ background: #188CE9;
 /*Футер*/
 .address{
 background: #2F303A;
+padding-bottom: 60px;
+
 }
 .footer-address{
 font-style: normal;
 
 }
 .adress-link{
+display: block;
+
 font-size: 14px;
 color: #FFFFFF;
 line-height: calc(24 / 14);
 }
 .address-contact{
+  display: block;
+  padding-top: 9px;
 font-weight: 400;
 font-size: 14px;
 line-height: calc(24 / 14);
