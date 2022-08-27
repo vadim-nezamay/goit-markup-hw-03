@@ -321,6 +321,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 /*Портфолио*/
 .wrap{
+  padding-bottom: 94px;
  display: flex;
 flex-wrap: wrap;
 gap: 30px;
