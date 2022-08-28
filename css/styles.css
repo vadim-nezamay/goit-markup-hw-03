@@ -74,7 +74,7 @@ img{
  
 }
 .header{
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
   padding:24px 0;
 }
 .header-logo {
@@ -90,8 +90,7 @@ img{
 }
 .footer-logo {
   display: block;
-  padding-bottom: 20px;
-  padding-top: 60px;
+margin-bottom: 20px;
     font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -224,9 +223,13 @@ margin-left: 50px;
 .team-item {
   background: #ffffff;
 }
+.team-img{
+
+ padding-bottom: 30px;
+}
 .team-user {
   text-align: center;
-
+margin-top: 30px;
   font-size: 16px;
   font-weight: 500;
   line-height: calc(19 / 16);
@@ -234,6 +237,8 @@ margin-left: 50px;
   color: var(--title-text-color);
 }
 .team-text {
+  margin-top: 10px;
+  margin-bottom: 0;
   text-align: center;
   font-family: inherit;
   font-size: 16px;
@@ -264,22 +269,26 @@ font-weight: 700;
 .hero-btn:hover, .hero-btn:focus  {
 background: #188CE9;
 }
+.teami {
+    padding-top: 94px;
+    padding-bottom: 94px;}
 .my-btn{
-  padding-left: 297px;
-  padding-bottom: 56px;padding-top: 100px;
+ justify-content: center;
+  margin-bottom: 50px;
   gap: 8px;
   display: flex;
+ 
 }
 .button {
   padding: 6px 25px;
   cursor: pointer;
-  font-weight: 500;
   font-family: 'Roboto';
   border: 0;
   border-radius: 4px;
   color: var(--title-text-color);
   background: var(--secondary-bg-color);
   font-style: normal;
+ letter-spacing: 0.03em;
   font-weight: 500;
   line-height: calc(26 / 16);
   text-align: center;
@@ -298,12 +307,13 @@ background: #188CE9;
   font-weight: 500;
   line-height: calc(26 / 16);
   text-align: center;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /*Футер*/
 .address{
 background: #2F303A;
 padding-bottom: 60px;
-
+padding-top: 60px;
 }
 .footer-address{
 font-style: normal;
@@ -318,12 +328,15 @@ line-height: calc(24 / 14);
 }
 .address-contact{
   display: block;
-  padding-top: 9px;
+ margin-top: 9px;
 font-weight: 400;
 font-size: 14px;
 line-height: calc(24 / 14);
 color: rgba(255, 255, 255, 0.6);
 
+}
+.address-contact:hover, .address-contact:focus{
+  color: #2196F3;
 }
 /*Портфолио*/
 .wrap{
@@ -335,14 +348,20 @@ gap: 30px;
 .my-wrap{
 
 }
+.wrap-img{
+}
 .socials {
+  margin-top: 20px;
+  margin-bottom: 0;
   font-style: normal;
   font-weight: 700;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  font-size: 18px;
 }
-.text {
+.text {margin-top: 4px;
+  margin-bottom: 0;
   font-style: normal;
   font-weight: 400;
   line-height: calc(30 / 16);
