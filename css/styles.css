@@ -108,7 +108,7 @@ img{
   line-height: calc(16 / 14);
 }
 
-.nav {
+.nav {    margin-left: 93px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -123,7 +123,7 @@ img{
     color: var(--acccent-color)
 }
 .nav-list{
-  margin-left: 93px;
+ 
   display: flex;
   align-items: center;
   gap: 50px;
@@ -189,6 +189,8 @@ margin-left: 50px;
 .my-features {display: flex;column-gap: 30px;}
 .features-item {width: 270px;}
 .features-text {
+  margin-top: 10px;
+  margin-bottom: 0px;
   line-height: calc(16 / 14);
 }
 /*Чим ми займаємося*/
@@ -198,9 +200,10 @@ margin-left: 50px;
 }
 .doing {
   padding-top: 0;
-  background: #F5F5F5;
+ 
 }
 .team {
+  padding-top: 94px;
   padding-bottom: 94px;
   background: #F5F4FA;
 }
@@ -241,7 +244,9 @@ margin-left: 50px;
 
 .bt{text-align: center;}
 .hero-btn {
-  padding: 10px 30px;
+  width: 216px;
+  height: 50px;
+justify-content: center;
 font-weight: 700;
   font-family: 'Roboto';
   border: 0;
@@ -253,6 +258,7 @@ font-weight: 700;
   text-align: center;
   color: var(--primary-white-color);
   cursor: pointer;
+  letter-spacing: 0.06em;
 }
 
 .hero-btn:hover, .hero-btn:focus  {
