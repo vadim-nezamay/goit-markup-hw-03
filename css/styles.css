@@ -75,7 +75,7 @@ img{
 }
 .header{
   border-bottom: 1px solid #ECECEC;
-  padding:24px 0;
+ padding:24px 0;
 }
 .header-logo {
   font-weight: 700;
@@ -90,7 +90,6 @@ img{
 }
 .footer-logo {
   display: block;
-margin-bottom: 20px;
     font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -126,6 +125,10 @@ margin-bottom: 20px;
   display: flex;
   align-items: center;
   gap: 50px;
+}
+.up{
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contacts-link {
   font-size: 14px;
@@ -206,14 +209,16 @@ margin-left: 50px;
   padding-bottom: 94px;
   background: #F5F4FA;
 }
-.section-title {
+.section-title{
+  padding-top: 94px;
+  padding-bottom: 94px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   text-align: center;
-  margin-bottom: 50px;
+  
 }
 /*Наша команда*/
 .team-list{
@@ -221,15 +226,23 @@ margin-left: 50px;
   column-gap: 30px;
 }
 .team-item {
-  background: #ffffff;
+  background: #F5F4FA;
+}
+.team-it{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+  background: #FFFFFF;
 }
 .team-img{
+justify-content: center;
+padding-top: 30px;
+padding-bottom: 30px;
+background: #FFFFFF;
 
- padding-bottom: 30px;
 }
 .team-user {
   text-align: center;
-margin-top: 30px;
+
   font-size: 16px;
   font-weight: 500;
   line-height: calc(19 / 16);
@@ -243,6 +256,11 @@ margin-top: 30px;
   font-family: inherit;
   font-size: 16px;
   line-height: calc(19 / 16);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+color: #757575;
+letter-spacing: 0.03em;
 }
 
 /*Кнопки*/
@@ -321,14 +339,14 @@ font-style: normal;
 }
 .adress-link{
 display: block;
-
+margin-top: 20px;
 font-size: 14px;
 color: #FFFFFF;
 line-height: calc(24 / 14);
 }
 .address-contact{
   display: block;
- margin-top: 9px;
+margin-top: 9px;
 font-weight: 400;
 font-size: 14px;
 line-height: calc(24 / 14);
@@ -344,14 +362,22 @@ color: rgba(255, 255, 255, 0.6);
  display: flex;
 flex-wrap: wrap;
 gap: 30px;
+width: 100%;    
 }
 .my-wrap{
-
 }
 .wrap-img{
+padding-left: 24px;
+padding-right: 24px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-bottom:1px solid #EEEEEE;
+border-left:1px solid #EEEEEE;
+border-right:1px solid #EEEEEE;
+flex-wrap: wrap;
 }
 .socials {
-  margin-top: 20px;
+ 
   margin-bottom: 0;
   font-style: normal;
   font-weight: 700;
